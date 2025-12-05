@@ -1,0 +1,23 @@
+/*
+ * Archivo: custom.css
+ * Sobrescribe estilos de AdminLTE para correcciones específicas.
+ */
+
+.user-panel .pull-left.info {
+    position: relative; 
+    float: left;       
+    max-width: calc(100% - 70px); 
+    left: auto;        
+    padding: 5px 5px 5px 15px;
+}
+
+.user-panel .user-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block; 
+    margin-bottom: 0; 
+}
+.user-panel > .image {
+    float: left;
+}
